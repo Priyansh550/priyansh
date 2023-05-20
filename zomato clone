@@ -1,0 +1,123 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Foodpay page | Foodpay.com</title>
+    <link rel="stylesheet" href="zomato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" media="screen and (max-width:1170)"  href="/phone.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/pide.jpg" alt="foodpay">
+        </div>
+        <ul>
+            <li class="items"><a href="#">Home</a></li>
+            <li class="items"><a href="#">Services</a></li>
+            <li class="items"><a href="#">About us</a></li>
+            <li class="items"><a href="#">Contact us</a></li>
+            <li class="items"><a href="#">Help</a></li>
+        </ul>
+    </nav>
+    <section class="home">
+        <h1 class="h-primary">Welcome to foodpay</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ipsum enim vel delectus dolorum rem
+            similique ducimus tempora nemo obcaecati sed porro sit eum dolores aperiam veniam, aliquid excepturi
+            facilis. Sequi architecto repudiandae dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptas ea quidem aliquid sint molestias
+            quisquam quasi natus. Nesciunt sed obcaecati quae ut voluptates, explicabo dolorem quibusdam autem tempore
+            dignissimos excepturi accusamus, recusandae itaque.</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section class="services-container">
+        <h1 class="h-primary">Our services</h1>
+        <div id="services">
+            <div class="box">
+            <img src="css/pide.jpg" alt="">
+            <h2 class="h-secondary">Food ordering</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ratione doloremque fuga eum cumque
+                sapiente nemo, ullam dolorem dolore ea alias ab! Doloribus sit voluptatum itaque quia in odio
+                voluptatibus aliquid est at. Tempora.</p>
+        </div>
+        <div class="box">
+            <img src="css/pide.jpg" alt="">
+            <h2 class="h-secondary">Food Catering</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ratione doloremque fuga eum cumque
+                sapiente nemo, ullam dolorem dolore ea alias ab! Doloribus sit voluptatum itaque quia in odio
+                voluptatibus aliquid est at. Tempora.</p>
+        </div>
+        <div class="box">
+            <img src="css/pide.jpg" alt="">
+            <h2 class="h-secondary">Bulk ordering</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ratione doloremque fuga eum cumque
+                sapiente nemo, ullam dolorem dolore ea alias ab! Doloribus sit voluptatum itaque quia in odio
+                voluptatibus aliquid est at. Tempora.</p>
+        </div>
+        </div>
+        
+    </section>
+    <section id="client-section">
+        <h1 class="h-primarycenter">Our clients</h1>
+    </div>
+
+        <div id="clients">
+            <div class="clients-item">
+                <img src="css/OIP.jpg" alt="microsoft">
+            </div>
+        
+            <div class="clients-item">
+                <img src="css/bharatpe-1605801197.jpg" alt="bharat pay">
+                </div>
+        
+        
+            <div class="clients-item">
+                <img src="css/google.jpg" alt="google">
+        
+        </div>
+            <div class="clients-item">
+                <img src="css/apple.jpg" alt="apple">
+            
+        
+    </div>
+</div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primarycenter">Contact us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name"
+                    placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Email:</label>
+                    <input type="text" name="name" id="name"
+                    placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Phone number:</label>
+                    <input type="number" name="name" id="name"
+                    placeholder="Enter your number">
+                </div>
+                <div class="form-group">
+                    <label for="name">Address:</label>
+                    <input type="text" name="name" id="name"
+                    placeholder="Enter your name">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+        Copyright &copy; www.foodpay.com.all rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
